@@ -133,3 +133,7 @@ a:hover {
   margin: 20px 0px;
   border-radius: 10px;
 }
+
+.form-floating {
+  margin: 20px 0px;
+}
