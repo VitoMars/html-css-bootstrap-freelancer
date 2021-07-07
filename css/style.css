@@ -51,9 +51,12 @@ a:hover {
   padding: 0px 20px;
 }
 
-.bg-lightgreen {
-  background-color: #1abc9c;
+.bg {
   padding: 50px 0px;
+}
+
+.lightgreen {
+  background-color: #1abc9c;
 }
 
 .img {
@@ -76,14 +79,23 @@ a:hover {
   padding: 10px 0px;
 }
 
-.white-star {
+.white-star,
+.black-star {
   display: flex;
   align-items: center;
 }
 
-.white-star i {
-  color: white;
+.white-star i,
+.black-star i {
   padding: 0px 30px;
+}
+
+.white-star {
+  color: white;
+}
+
+.black-star {
+  color: black;
 }
 
 .sub-title {
@@ -98,4 +110,26 @@ a:hover {
   width: 100px;
   border-radius: 2px;
   background-color: #fff;
+}
+
+.black-star::after,
+.black-star::before {
+  content: "";
+  display: inline-block;
+  height: 3px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: black;
+}
+
+.black {
+  color: black;
+}
+
+.box {
+  width: 100%;
+  height: 300px;
+  background-color: brown;
+  margin: 20px 0px;
+  border-radius: 10px;
 }
