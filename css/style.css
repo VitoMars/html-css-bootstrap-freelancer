@@ -3,3 +3,47 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #2c3e50;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-container {
+  display: flex;
+}
+
+.start,
+.link {
+  color: white;
+  text-transform: uppercase;
+}
+
+.start {
+  font-size: 26px;
+}
+
+.link {
+  padding: 0px 20px;
+}
