@@ -20,10 +20,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: white;
-}
-
 .container-nav {
   display: flex;
   justify-content: space-between;
@@ -48,6 +44,10 @@ a:hover {
   text-transform: uppercase;
 }
 
+.sub-text {
+  /* color: white; */
+}
+
 .start {
   font-size: 26px;
   font-weight: bold;
@@ -63,6 +63,10 @@ a:hover {
 
 .lightgreen {
   background-color: #1abc9c;
+}
+
+.lightgreen-txt {
+  color: #1abc9c;
 }
 
 .img {
@@ -89,6 +93,17 @@ a:hover {
 
 .sub-title {
   padding-top: 10px;
+}
+
+.social {
+  text-align: center;
+}
+
+.social i {
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  border: 1px solid white;
 }
 
 .star::after,
